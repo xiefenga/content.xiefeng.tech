@@ -1,0 +1,22 @@
+{
+  "name": "xiefeng.tech",
+  "version": "0.0.1",
+  "description": "personal website content source",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "build": "tsc -p ./.husky/scripts",
+    "pre-commit": "zx ./.husky/scripts/pre-commit.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.4",
+    "dotenv": "^16.0.3",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.4",
+    "undici": "^5.22.1",
+    "zx": "^7.2.2"
+  }
+}
